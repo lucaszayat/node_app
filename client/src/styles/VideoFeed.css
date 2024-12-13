@@ -1,0 +1,11 @@
+.video-container {
+  display: flex;
+  justify-content: center; /* Centrar el contenido */
+  align-items: center; /* Alinear verticalmente */
+  height: calc(100vh - 120px); /* Altura total, considerando las barras */
+}
+
+.video {
+  width: 100%; /* Ocupa toda la pantalla */
+  max-height: 100%; /* Limita la altura para que no se desborde */
+}

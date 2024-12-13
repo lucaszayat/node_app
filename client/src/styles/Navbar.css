@@ -1,0 +1,65 @@
+.top-navbar {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos */
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tabs {
+  display: flex;
+  flex-grow: 1; /* Oc ### Continúa el CSS para la Barra Superior
+
+Aquí tienes el resto del código CSS para `Navbar.css`, que incluye estilos para las pestañas "Following" y "For You":
+
+```css
+.tabs {
+  display: flex;
+  flex-grow: 1; /* Ocupa el espacio disponible */
+  justify-content: center; /* Centra las pestañas en la barra superior */
+}
+
+.tab {
+  margin: 0 15px;
+  color: #fff; /* Texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  padding: 5px 10px; /* Espaciado */
+  cursor: pointer; /* Cambiar cursor para indicar que se puede hacer clic */
+}
+
+.tab.active {
+  border-bottom: 2px solid #fff; /* Subrayado para la pestaña activa */
+}
+
+.search-icon {
+  color: #fff; /* Icono de búsqueda en blanco */
+  font-size: 24px; /* Tamaño del icono */
+  cursor: pointer; /* Cambiar cursor para indicar que se puede hacer clic */
+}
+
+.bottom-navbar {
+  display: flex;
+  justify-content: space-around; /* Espacio uniforme entre íconos */
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed; /* Fija la barra en la parte inferior */
+  bottom: 0; /* Sitúa la barra en la parte inferior */
+  width: 100%; /* Asegúrate de que ocupa todo el ancho */
+}
+
+.bottom-navbar img {
+  width: 24px; /* Ajustar el tamaño de los íconos */
+}
+
+.create-button {
+  background: linear-gradient(to right, #007bff, #ff007f); /* Degradado para el botón de crear */
+  border-radius: 50%; /* Forma circular */
+  padding: 15px; /* Espaciado interno */
+  font-size: 24px; /* Tamaño más grande para resaltar */
+  color: white;
+  cursor: pointer;
+}
+
+.icon {
+  padding: 10px; /* Espaciado para los íconos */
+  cursor: pointer;
+}

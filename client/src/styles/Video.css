@@ -1,0 +1,27 @@
+.video-container {
+  margin: 20px auto;
+  max-width: 600px; /* Limitar tamaño máximo para la visualización en escritorio */
+  background: #212121; /* Fondo oscuro para el contenedor */
+  color: #fff; /* Texto en blanco */
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 15px; /* Espaciado interior */
+}
+
+.video-interactions {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #007bff; /* Botón de color azul */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0; /* Margen entre botones */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
